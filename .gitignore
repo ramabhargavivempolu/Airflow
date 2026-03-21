@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local environment and secrets
+.env
+
+# Airflow runtime artifacts
+logs/
+
+# macOS
+.DS_Store
