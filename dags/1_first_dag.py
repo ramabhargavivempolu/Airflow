@@ -1,5 +1,4 @@
 from airflow.sdk import dag, task
-from more_itertools import first
 
 # Define the DAG using the decorator - function within function
 @dag(
@@ -28,4 +27,3 @@ def first_dag():
 
 # Instantiate the DAG
 first_dag()
-
